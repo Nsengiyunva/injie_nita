@@ -1,0 +1,39 @@
+
+    {
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:nsengiyunva.github.io:injie_nita:39d81661-b970-4ba3-91c3-817636a4746b",
+        "alsoKnownAs": [
+            "testUUID",
+            "test@gmail.com"
+        ],
+        "service": [
+            {
+                "id": "IdentityHub",
+                "type": "IdentityHub",
+                "serviceEndpoint": {
+                    "@context": "schema.identity.foundation/hub",
+                    "@type": "UserServiceEndpoint",
+                    "instance": [
+                        "did:test:hub.id"
+                    ]
+                }
+            }
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:web:nsengiyunva.github.io:injie_nita:39d81661-b970-4ba3-91c3-817636a4746b#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:nsengiyunva.github.io:injie_nita:39d81661-b970-4ba3-91c3-817636a4746b",
+                "publicKeyMultibase": "z6MkiHQdiVq7mTxSXHtovPrNrQFDrAEAwyiYhC3AXLRs4ULz"
+            }
+        ],
+        "authentication": [
+            "did:web:nsengiyunva.github.io:injie_nita:39d81661-b970-4ba3-91c3-817636a4746b#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:nsengiyunva.github.io:injie_nita:39d81661-b970-4ba3-91c3-817636a4746b#key-0"
+        ]
+    }
